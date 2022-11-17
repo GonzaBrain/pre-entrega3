@@ -1,0 +1,91 @@
+/* -----index----- */
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    width: 100%;
+}
+
+html{
+     height: 100%; 
+}
+
+@font-face {
+    font-family: 'MBold';
+    src: url(../fonts/Montserrat-ExtraBold.ttf)
+}
+
+body{
+   background-color: white;
+    position: relative;
+    min-height: 100vh;
+}
+
+/* color de fondo */
+.background_co{
+    background-color: #1f0e61; 
+}
+
+header{
+    color: #f0ffff;
+}
+
+a{
+    font-family: 'MBold';
+}
+
+footer{
+    background-color: #e25f23;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.tarjetas{
+    width: 1500px;
+    align-items: center;
+}
+ /* Imagenes */
+.imgg {
+    display: flex;
+}
+
+.imgg__img1 {
+    flex-flow: column nowrap;
+    margin-left: 15%;  
+    margin-bottom: 250px;
+}
+
+/*.imgg_img2 {
+   /* flex-flow: column nowrap;
+    margin-right: 15%;   
+    margin-bottom: 250px;
+}*/
+
+.img__1{
+    width: 50%;
+}
+.img__2 {
+    width: 50%;
+}
+
+.img__1:hover {
+    transform: scale(1.5);
+    transition: all 3s;
+}
+
+.img__2:hover{
+    transform: scale(1.5);
+    transition: all 3s;
+}
+
+
+/* -----imperdibles----- */
+
+#color {
+    background-color: #e25f23;
+}
+

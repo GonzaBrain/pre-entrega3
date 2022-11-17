@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #f7f7f7;
+  position: relative;
+  min-height: 100vh;
+}
+body header nav {
+  background-color: #1f0e61;
+  color: white;
+}
+body header nav div ul a {
+  font-family: "MBold";
+}
+body main div .banner {
+  width: 100%;
+}
+body footer {
+  background-color: #161616;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Imagenes del index */
+.imgg {
+  display: flex;
+}
+
+.imgg__img1 {
+  flex-flow: column nowrap;
+  margin-left: 15%;
+  margin-bottom: 250px;
+}
+
+.img__1 {
+  width: 50%;
+}
+
+.img__2 {
+  width: 50%;
+}
+
+.img__1:hover {
+  transform: scale(1.5);
+  transition: all 3s;
+}
+
+.img__2:hover {
+  transform: scale(1.5);
+  transition: all 3s;
+}
+
+@font-face {
+  font-family: "MBold";
+  src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+
+/*# sourceMappingURL=style.css.map */

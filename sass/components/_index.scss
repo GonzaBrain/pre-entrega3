@@ -1,0 +1,69 @@
+@import '../base/variables';
+
+
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%; 
+}
+
+body{
+    
+   
+    background-color: $bg-general;
+     position: relative;
+     min-height: 100vh;
+   
+    header{
+        nav{
+            background-color: $bg-header;
+            color: $text-color;
+            div{
+                ul{
+                    a{
+                        font-family: 'MBold';
+                    }
+                }
+            }
+        
+        }
+    }
+
+
+
+
+
+        main{
+            div{
+                .banner {
+                    width: 100%;
+                }
+            }}
+
+
+
+        footer{
+            background-color: $bg-footer;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            }
+    }
+
+
+
+
+ 
+
+
+
+    
+
+
+
+
+
+
