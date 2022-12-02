@@ -1,5 +1,6 @@
 @import '../base/variables';
-
+@import "../base/listas";
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
 
 *{ 
     box-sizing: border-box;
@@ -7,15 +8,19 @@
     padding: 0;
 }
 html{
-    height: 100%; 
+    /*height: 100%; */
+    min-height: 100%;
+    position: relative;
 }
 
 body{
-    
-   
-    background-color: $bg-general;
-     position: relative;
-     min-height: 100vh;
+        margin: 0;
+        background-color: nth($colores , 1);
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        
+
    
     header{
         nav{
@@ -43,14 +48,23 @@ body{
                 }
             }}
 
-
-
-        footer{
-            background-color: $bg-footer;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
+            section{
+                h2 {
+                    text-align: center;
+                    margin-top: 50px;
+                    font-family: 'Rubik Glitch', cursive;
+                    color: nth($colores , 6);
+                }
             }
+
+
+        
+            footer {
+                background-color: $bg-footer;
+                padding: 1em 0;
+                text-align: center;
+                margin-top: auto;
+        }
     }
 
 
