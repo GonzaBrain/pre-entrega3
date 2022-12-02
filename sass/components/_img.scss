@@ -1,27 +1,89 @@
- /* Imagenes del index */
- .imgg {
+
+
+.contenedor {
+    /*display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+    overflow: hidden;
+    position: relative;*/
+    background-color: nth($colores , 4);
+    height: auto;
+    width: 100%;
+    padding: 30px;
     display: flex;
+    align-items: center;
+    /*flex-direction: row;*/
+    background-color: nth($colores , 1);
+   
+    
 }
 
-.imgg__img1 {
-    flex-flow: column nowrap;
-    margin-left: 15%;  
-    margin-bottom: 250px;
+.contenedor__1{
+    display: flex;
+    justify-content: flex-start;
 }
 
-.img__1{
-    width: 50%;
-}
-.img__2 {
-    width: 50%;
+.contenedor__2{
+    display: flex;
+    justify-content: flex-end;
 }
 
-.img__1:hover {
-    transform: scale(1.5);
+.img-1{ 
+    
+    width: 60%;
+    margin-bottom: 40px;
+    border-radius: 20px; 
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+
+.img-2{
+    
+    width: 60%;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    margin-right: 80px;
+    margin-top: 30px; 
+    
+}
+
+.img-1:hover {
+    transform: scale(1.1);
     transition: all 3s;
 }
 
-.img__2:hover{
-    transform: scale(1.5);
+.img-2:hover {
+    transform: scale(1.1);
     transition: all 3s;
 }
+
+
+@media screen and (max-width:700px){
+    .contenedor {
+        flex-direction: column;
+    }
+
+    .img-1{
+        width: 50%;
+        margin-bottom: 40px;
+        border-radius: 20px; 
+        margin-left: 20%;
+        margin-top: 30px;
+
+    }
+    .img-2{ 
+        width:50%;
+        margin-bottom: 40px;
+        border-radius: 20px;
+        margin-right: 30%;
+        margin-top: 30px; 
+       
+    }
+
+    .text-img{
+        display: flex;
+        justify-content: end;
+    }
+}
+
